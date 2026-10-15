@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "description": "视频工作室：在 AI 助手的聊天框里生成视频、视频聊天、把故事拍成长视频、玩无限游戏。需要视频工作室的访问令牌。",
   "author": { "name": "hypergraphdev" },
-  "repository": "https://github.com/hypergraphdev/xhs-skills",
+  "repository": "https://github.com/hypergraphdev/video-skills",
   "keywords": ["video", "avatar", "story", "chinese"]
 }

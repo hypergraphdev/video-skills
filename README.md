@@ -7,17 +7,17 @@
 - 把一段故事拍成多段长视频，打开页面就边做边连续播；
 - 用一段故事开一局无限游戏，页面开着就一直演下去，聊天里还能插入剧情。
 
-只给视频工作室白名单里的账号用：没有令牌什么都做不了。本仓库是私有的，装的那台机器要能访问它（先 `gh auth login`）。
+技能谁都能装，但只有视频工作室白名单里的账号能在网页上生成令牌；没有令牌什么都做不了。
 
 ## 安装
 
 | 用在哪 | 怎么装 |
 |---|---|
-| Claude Code（桌面版的 Code 也是它） | `/plugin marketplace add hypergraphdev/xhs-skills`，再 `/plugin install xhs-video-studio@xhs-skills` |
-| 支持 Agent Skills 的大多数助手 | `npx skills add hypergraphdev/xhs-skills` |
-| 手动（OpenClaw、WorkBuddy 等） | `git clone https://github.com/hypergraphdev/xhs-skills`，把里面的 `skills/xhs-video-studio` 放进助手的技能目录（Claude 是 `~/.claude/skills/`，OpenClaw 一般是 `~/.openclaw/skills/`） |
+| Claude Code（桌面版的 Code 也是它） | `/plugin marketplace add hypergraphdev/video-skills`，再 `/plugin install xhs-video-studio@video-skills` |
+| 支持 Agent Skills 的大多数助手 | `npx skills add hypergraphdev/video-skills` |
+| 手动（OpenClaw、WorkBuddy 等） | `git clone https://github.com/hypergraphdev/video-skills`，把里面的 `skills/xhs-video-studio` 放进助手的技能目录（Claude 是 `~/.claude/skills/`，OpenClaw 一般是 `~/.openclaw/skills/`） |
 
-更新：插件方式用 `/plugin marketplace update xhs-skills`；手动方式在克隆的目录里 `git pull`。
+更新：插件方式用 `/plugin marketplace update video-skills`；手动方式在克隆的目录里 `git pull`。
 
 ## 第一次用
 

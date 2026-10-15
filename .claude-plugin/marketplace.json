@@ -1,5 +1,5 @@
 {
-  "name": "xhs-skills",
+  "name": "video-skills",
   "description": "视频工作室的 AI 助手技能",
   "owner": { "name": "hypergraphdev" },
   "plugins": [
