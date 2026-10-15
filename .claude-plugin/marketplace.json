@@ -1,0 +1,12 @@
+{
+  "name": "xhs-skills",
+  "description": "视频工作室的 AI 助手技能",
+  "owner": { "name": "hypergraphdev" },
+  "plugins": [
+    {
+      "name": "xhs-video-studio",
+      "source": "./",
+      "description": "在聊天框里生成视频、视频聊天、把故事拍成长视频、玩无限游戏"
+    }
+  ]
+}
